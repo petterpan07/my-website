@@ -6,12 +6,14 @@
   font-variation-settings:
     "wdth" 100;
 }
-body, .open-sans-normal {
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
  
 }
+body {
+  background-color: #F8F8FF;
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@ header {
     background-image: url("assets/Hero-bg.png");
     background-size: cover;
     padding-top: 100px;
+    margin: 100px auto;
 }
 .navber{
     max-width: 1140px;
